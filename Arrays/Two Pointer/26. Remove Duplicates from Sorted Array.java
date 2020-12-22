@@ -3,7 +3,7 @@ class Solution {
         int i=1,j=0;
         while(i<nums.length)
         {
-            if (nums[j]==nums[i])
+            if (nums[j]==nums[i]) // n
                 i++;
                 
             else
@@ -19,3 +19,5 @@ class Solution {
 }
     
 }
+nums[j] will store the first unique element it finds and therafter compares it with subsequent elements. The moment it finds a diff element it stores that in num[j++].
+          
